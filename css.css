@@ -1,0 +1,236 @@
+#navbox {
+    background-color: #2c3e50;
+}
+
+nav {
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #EFEFBB;
+}
+
+.navbar-brand {
+    font-family: 'Grand Hotel', cursive;
+    font-style: italic;
+    font-size: x-large;
+    margin-left: -20px;
+}
+
+.nav-item {
+    font-size: 23px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .nav-item {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #stop {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 100px) {
+    .about-img__container::before {
+        content: "";
+        position: absolute;
+        top: -3.1rem;
+        left: -3.3rem;
+        width: 100;
+        height: 160;
+        outline: 2rem solid #fdbb2d;
+        z-index: 1;
+        transition: all 1.4s ease-in-out;
+        margin-left: 4px;
+    }
+    .donutimg {
+        position: relative;
+        z-index: 2;
+        height: 100;
+        width: 160;
+        margin-left: 4px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .about-img__container::before {
+        content: "";
+        position: absolute;
+        top: -3.8rem;
+        left: -3.9rem;
+        width: 360;
+        height: 240;
+        outline: 2rem solid #fdbb2d;
+        z-index: 1;
+        transition: all 1.4s ease-in-out;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    .donutimg {
+        position: relative;
+        z-index: 2;
+        height: 240;
+        width: 360;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+}
+
+.card {
+    margin-top: 80px;
+}
+
+.card-img-top {
+    height: 250px;
+    width: 500px;
+}
+
+.card-body {
+    height: 160px;
+}
+
+#bg {
+    background-image: url("images/wal.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+#welcome {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    background: none;
+    color: aliceblue;
+    letter-spacing: 0.08em;
+    font-size: 35px;
+}
+
+#text {
+    background-color: #03407c;
+}
+
+.banner {
+    background: none;
+}
+
+.bton {
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 25px;
+    background: #d93434;
+    padding: 5px 19px 5px 19px;
+    border: solid #03010f 6px;
+    text-decoration: none;
+}
+
+.bton:hover {
+    background: aliceblue;
+    background-image: -webkit-linear-gradient(top, #fac43c, #ced934);
+    background-image: -moz-linear-gradient(top, #fac43c, #ced934);
+    background-image: -ms-linear-gradient(top, #fac43c, #ced934);
+    background-image: -o-linear-gradient(top, #fac43c, #ced934);
+    background-image: linear-gradient(to bottom, #fac43c, #ced934);
+    text-decoration: none;
+}
+
+.btn-secondary {
+    font-size: 39px;
+    font-family: 'Playfair Display', regular;
+    font-weight: bold;
+    padding: 5px 19px 5px 19px;
+}
+
+*/ .abtimg {
+    height: 590px;
+    width: 460px;
+}
+
+#brd {
+    border: 10px solid #FDC830;
+    border-collapse: 12px;
+    top: 100px;
+    height: 590px;
+    width: 460px;
+}
+
+.tp {
+    padding-top: 12%;
+    padding-bottom: 7%;
+    padding-left: 1%;
+}
+
+.about-img__container {
+    position: relative;
+}
+
+.about-img__container::before {
+    content: "";
+    position: absolute;
+    top: -3.8rem;
+    left: -3.9rem;
+    width: 460;
+    height: 340;
+    outline: 2rem solid #fdbb2d;
+    z-index: 1;
+    transition: all 1.4s ease-in-out;
+}
+
+.donutimg {
+    position: relative;
+    z-index: 2;
+    height: 340;
+    width: 460;
+}
+
+.about-img__container:hover:before {
+    top: 0;
+    left: 0;
+}
+
+.bg {
+    background-color: #FBD786;
+}
+
+.bgc {
+    background: #4568DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fact {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 16%;
+    font-size: 30px;
+    margin-right: 12%;
+    color: #89fffd;
+}
+
+.df {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 28px;
+    line-height: 1.8;
+}
+
+
+/*Footer*/
+
+#footer {
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    color: black;
+}
