@@ -62,7 +62,7 @@ background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-2
 background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
-}
+    }}
 
 #welcome {
     font-family: 'Permanent Marker', cursive;
