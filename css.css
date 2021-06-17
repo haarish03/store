@@ -54,6 +54,19 @@ nav {
     opacity: 0.7;
 }
 
+@supports (-webkit-touch-callout: none) {
+ 
+#bg {
+    background-image: url("images/wal.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    
+    opacity: 0.7;
+}
+}
+
 #welcome {
     font-family: 'Permanent Marker', cursive;
     text-align: center;
