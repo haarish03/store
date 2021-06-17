@@ -57,9 +57,9 @@ nav {
 @supports (-webkit-touch-callout: none) {
  
 #bg {
-    background-image: url("images/wal.jpg");
+    background-image: url("images/t.jpg");
     min-height: 600px;
-    background-attachment: fixed;
+    background-attachment: cover;
     background-position: left;
     background-repeat: no-repeat;
     
